@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:text="TravelPhotoApp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="324dp">
+
+
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="399dp"
+            android:layout_height="257dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pic0"
+            tools:layout_editor_absoluteY="19dp" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="399dp"
+            android:layout_height="257dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pic1"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="19dp" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="399dp"
+            android:layout_height="257dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pic2"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="19dp" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="399dp"
+            android:layout_height="257dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pic3"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="19dp" />
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="399dp"
+            android:layout_height="257dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pic4"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="19dp" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnprevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/btnforward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_ff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pvname"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Seven Wonders"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
